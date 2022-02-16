@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { WeatherService } from '../services/weather.service';
+import { WeatherService } from '../../services/weather.service';
 import { Coords } from './weather.interface';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
-import { ConsolidatedWeather } from '../services/weather.service.interface';
+import { ConsolidatedWeather } from '../../services/weather.service.interface';
 
 @Component({
   selector: 'app-weather',
