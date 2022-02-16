@@ -1,0 +1,11 @@
+<div *ngIf="!loading" class="weather-column">
+  <div *ngIf="myWeather">
+    <div class="svg" [innerHTML]="svg"></div>
+    <span class="pt-3">{{ myWeather.applicable_date | date: 'EEEE MMMM, d' }}</span>
+    <p class="pb-3">{{ myWeather.weather_state_name }}</p>
+  </div>
+</div>
+<div *ngIf="loading">
+  <img src="assets/spinner.svg" class="" alt="loading data">
+</div>
+

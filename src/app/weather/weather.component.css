@@ -1,0 +1,9 @@
+.weather-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.svg {
+  margin-bottom:1em
+}
