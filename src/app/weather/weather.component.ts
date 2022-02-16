@@ -30,6 +30,7 @@ export class WeatherComponent implements OnInit {
       }
     }, (error) => {
       if (error) {
+        // default to Philadelphia if user blocks geolocation
         this.getWeatherStatic(39.952271, -75.162369);
       }
     });
