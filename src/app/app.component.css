@@ -4,12 +4,3 @@
   flex-direction: column;
   background-color: #f7fafc;
 }
-
-.App-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-self: center;
-  justify-content: center;
-  max-width: 1200px;
-}

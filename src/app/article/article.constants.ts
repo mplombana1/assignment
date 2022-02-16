@@ -1,6 +1,6 @@
 export const Articles = [
   {
-    title: "Nulla nec aliquam lorem, dignissim",
+    title: 'Nulla nec aliquam lorem, dignissim',
     body: `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec
     ullamcorper tellus, id tempus lectus. Aenean nisl mauris, ornare at
     magna a, porttitor feugiat ante. Vestibulum dictum lacus aliquam,
@@ -27,7 +27,7 @@ export const Articles = [
     Duis nibh ante, dignissim sed suscipit sit amet, viverra ut neque.</p>`,
   },
   {
-    title: "Fusce non leo",
+    title: 'Fusce non leo',
     body: `<p>Praesent semper consequat ex eget tincidunt. Quisque a dictum justo.
     In a justo nec lacus feugiat interdum. Donec vulputate consequat
     leo, a eleifend metus feugiat in. Phasellus vulputate lorem id mi
